@@ -1,0 +1,105 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    background-size: cover;
+    font-size: 120%;
+}
+
+.card{
+    background-color: #222222f0;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    margin: 1em;
+    max-width: 420px;
+    color:coral;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button{
+    margin: 1em;
+    border-radius: 50%;
+    border: none;
+    height: 50px;
+    width: 50px;
+    background-color: coral;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.75;
+}
+
+.temp{
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+.search-bar{
+    border: none;
+    padding: 0.6em 1em;
+    border-radius: 50px;
+    outline: none;
+    color: #333333;
+    font-size: 130%;
+    width: calc(100% - 120px);
+}
+
+.description{
+    text-transform: capitalize;
+    margin-left: 6px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.space{
+    margin-top: 8px;
+}
+
+.weather.loading{
+    visibility: hidden;
+    max-height: 10px;
+    position: relative;
+}
+
+.weather.loading:after{
+    visibility: visible;
+    content: "Loading...";
+    color: coral;
+    position: absolute;
+    top: 0;
+}
+
+.white{
+    color: whitesmoke;
+    margin-right: 7px;
+}
+
+@media (max-width: 450px) {
+    body {
+      font-size: 4vw;
+    }
+    button{
+        height: 12vw;
+        width: 12vw;
+        min-height: 30px;
+        min-width: 30px;
+    }
+}
