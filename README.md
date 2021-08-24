@@ -7,7 +7,7 @@
 <li>script.js</li>
 </ul>
 <h2>Indicaciones</h2>
-<p>❗ Para poder conectarnos a la API que nos ofrece la web en cuestión (https://openweathermap.org/api), necesitamos una clave (API key), la cual ya se encuentra definida dentro del script correspondiente</p>
+<p>❗ Para poder conectarnos a la API que nos ofrece la web en cuestión (https://openweathermap.org/api), necesitamos una clave (API key), la cual ya se encuentra definida dentro del script correspondiente.</p>
 <h2>Estado</h2>
 <p><strong>✔️ FINALIZADO</strong></p>
 <p>📅 Ultima modificación: <strong>24/08/2021</strong></p>
