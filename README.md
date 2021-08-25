@@ -1,4 +1,4 @@
-<h1>Gmail_API</h1>
+<h1>Weather_API</h1>
 <h2>Contenido del repositorio</h2>
 <p>El proyecto que contiene este repositorio consiste en una interfaz gráfica generada mediante HTML, CSS Y JavaScript, capaz de mostrar unos datos climáticos específicos sobre cualquier ciudad del mundo mediante la conexión a una API determinada con JavaScript. Los archivos que constituyen este proyecto son:</p>
 <ul>
